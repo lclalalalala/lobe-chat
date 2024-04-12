@@ -24,6 +24,7 @@ jobs:
         id: sync
         uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
         with:
+          node-version: 20
           upstream_sync_repo: lobehub/lobe-chat
           upstream_sync_branch: main
           target_sync_branch: main
